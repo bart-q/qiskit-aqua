@@ -1,0 +1,10 @@
+name: qiskit-aqua-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - qiskit==0.23.0
+      - qiskit-aqua==0.9.5
