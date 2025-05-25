@@ -2,9 +2,22 @@ name: qiskit-aqua-env
 channels:
   - conda-forge
   - defaults
+
 dependencies:
   - python=3.8
   - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - notebook
+  - ipywidgets
+  - pandas
+  - scikit-learn
+  - seaborn
+  - networkx
+  - sympy
   - pip:
-      - qiskit==0.23.0
+      - qiskit-terra==0.18.3
+      - qiskit-aer==0.9.1
+      - qiskit-ignis==0.6.0
       - qiskit-aqua==0.9.5
